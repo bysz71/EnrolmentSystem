@@ -1,0 +1,13 @@
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemUnitTest\obj\Debug\EnrolmentSystemUnitTest.csprojResolveAssemblyReference.cache
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemUnitTest\bin\Debug\EnrolmentSystemUnitTest.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemUnitTest\bin\Debug\EnrolmentSystemUnitTest.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemUnitTest\bin\Debug\EnrolmentSystem.exe
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemUnitTest\bin\Debug\EnrolmentSystemControll.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemUnitTest\bin\Debug\EnrolmentSystemModel.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemUnitTest\bin\Debug\EnrolmentSystemControll.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemUnitTest\bin\Debug\EnrolmentSystemModel.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemUnitTest\bin\Debug\EnrolmentSystem.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemUnitTest\obj\Debug\EnrolmentSystemUnitTest.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemUnitTest\obj\Debug\EnrolmentSystemUnitTest.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemUnitTest\bin\Debug\MakeupFileControl.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemUnitTest\bin\Debug\MakeupFileControl.pdb

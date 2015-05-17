@@ -1,0 +1,9 @@
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\bin\Debug\EnrolmentSystem.exe.config
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\bin\Debug\EnrolmentSystem.exe
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\bin\Debug\EnrolmentSystem.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\obj\Debug\EnrolmentSystemUI.csprojResolveAssemblyReference.cache
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\obj\Debug\EnrolmentSystemUI.FormMain.resources
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\obj\Debug\EnrolmentSystemUI.Properties.Resources.resources
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\obj\Debug\EnrolmentSystemUI.csproj.GenerateResource.Cache
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\obj\Debug\EnrolmentSystem.exe
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\obj\Debug\EnrolmentSystem.pdb

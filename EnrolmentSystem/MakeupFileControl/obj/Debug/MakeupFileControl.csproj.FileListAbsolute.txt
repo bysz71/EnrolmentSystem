@@ -1,0 +1,9 @@
+C:\Github\EnrolmentSystem\EnrolmentSystem\MakeupFileControl\bin\Debug\MakeupFileControl.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\MakeupFileControl\bin\Debug\MakeupFileControl.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\MakeupFileControl\bin\Debug\EnrolmentSystemControll.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\MakeupFileControl\bin\Debug\EnrolmentSystemModel.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\MakeupFileControl\bin\Debug\EnrolmentSystemControll.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\MakeupFileControl\bin\Debug\EnrolmentSystemModel.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\MakeupFileControl\obj\Debug\MakeupFileControl.csprojResolveAssemblyReference.cache
+C:\Github\EnrolmentSystem\EnrolmentSystem\MakeupFileControl\obj\Debug\MakeupFileControl.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\MakeupFileControl\obj\Debug\MakeupFileControl.pdb

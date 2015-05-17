@@ -1,0 +1,5 @@
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemModel\obj\Debug\EnrolmentSystemModel.csprojResolveAssemblyReference.cache
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemModel\bin\Debug\EnrolmentSystemModel.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemModel\bin\Debug\EnrolmentSystemModel.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemModel\obj\Debug\EnrolmentSystemModel.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystemModel\obj\Debug\EnrolmentSystemModel.pdb
