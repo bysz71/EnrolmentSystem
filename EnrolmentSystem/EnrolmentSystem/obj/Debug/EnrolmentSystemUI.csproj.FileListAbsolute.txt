@@ -7,3 +7,9 @@ C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\obj\Debug\EnrolmentSys
 C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\obj\Debug\EnrolmentSystemUI.csproj.GenerateResource.Cache
 C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\obj\Debug\EnrolmentSystem.exe
 C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\obj\Debug\EnrolmentSystem.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\bin\Debug\EnrolmentSystemControll.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\bin\Debug\EnrolmentSystemModel.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\bin\Debug\MakeupFileControl.dll
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\bin\Debug\EnrolmentSystemControll.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\bin\Debug\EnrolmentSystemModel.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\bin\Debug\MakeupFileControl.pdb

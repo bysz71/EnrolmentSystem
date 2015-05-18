@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EnrolmentSystemControll
 {
-    public class University
+    class DataControl
     {
     }
 }

@@ -62,26 +62,26 @@
             // openFileToolStripMenuItem
             // 
             this.openFileToolStripMenuItem.Name = "openFileToolStripMenuItem";
-            this.openFileToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.openFileToolStripMenuItem.Size = new System.Drawing.Size(163, 24);
             this.openFileToolStripMenuItem.Text = "Open file";
             this.openFileToolStripMenuItem.Click += new System.EventHandler(this.openFileToolStripMenuItem_Click);
             // 
             // saveFileToolStripMenuItem
             // 
             this.saveFileToolStripMenuItem.Name = "saveFileToolStripMenuItem";
-            this.saveFileToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.saveFileToolStripMenuItem.Size = new System.Drawing.Size(163, 24);
             this.saveFileToolStripMenuItem.Text = "Save file";
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(163, 24);
             this.saveAsToolStripMenuItem.Text = "Save as...";
             // 
             // makeupFileToolStripMenuItem
             // 
             this.makeupFileToolStripMenuItem.Name = "makeupFileToolStripMenuItem";
-            this.makeupFileToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.makeupFileToolStripMenuItem.Size = new System.Drawing.Size(163, 24);
             this.makeupFileToolStripMenuItem.Text = "Makeup file";
             this.makeupFileToolStripMenuItem.Click += new System.EventHandler(this.makeupFileToolStripMenuItem_Click);
             // 
@@ -93,7 +93,7 @@
             this.Controls.Add(this.fileMenuStrip);
             this.MainMenuStrip = this.fileMenuStrip;
             this.Name = "FormMain";
-            this.Text = "Form1";
+            this.Text = "FormMain";
             this.fileMenuStrip.ResumeLayout(false);
             this.fileMenuStrip.PerformLayout();
             this.ResumeLayout(false);

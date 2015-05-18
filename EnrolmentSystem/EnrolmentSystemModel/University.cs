@@ -9,16 +9,14 @@ namespace EnrolmentSystemModel
     public class University
     {
         private string _name;
-        private string _dataSet;
         private Dictionary<string, Paper> _paperDictionary;
-        private Dictionary<int, Student> _studentDictionary;
+        private Dictionary<string, Student> _studentDictionary;
 
         public University()
         {
             _name = "";
-            _dataSet = "";
             _paperDictionary = new Dictionary<string,Paper>();
-            _studentDictionary = new Dictionary<int,Student>();
+            _studentDictionary = new Dictionary<string,Student>();
         }
 
         public string Name
@@ -30,18 +28,6 @@ namespace EnrolmentSystemModel
             set
             {
                 _name = value;
-            }
-        }
-
-        public string DataSet
-        {
-            get
-            {
-                return _dataSet;
-            }
-            set
-            {
-                _dataSet = value;
             }
         }
 
@@ -98,7 +84,7 @@ namespace EnrolmentSystemModel
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public bool RemoveStudent(int id)
+        public bool RemoveStudent(string id)
         {
             if (_studentDictionary.ContainsKey(id))
             {

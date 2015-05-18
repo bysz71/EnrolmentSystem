@@ -1,0 +1,15 @@
+--university database--
+paper_159.334_Internet Programming_Dr Squid Ring
+member_28471928_92817237_12345827_22847583
+paper_159.201_Data Structure And Algrithms_Dr King Prawn 
+member_92817237_82736587_12345827_22847583_2847192
+paper_159.234_Object Oriented Programming_Dr Salmon Slice
+member_92817237_12562876_82736587
+paper_158.212_Application Software Development_Dr Baked Scallops
+member_12345827_22847583
+student_28471928_Tony Stark_01-01-1967_11 Metalman Street, Mavel City
+student_92817237_Joe Wang_07-01-1974_22 Anyone Road, None City
+student_12562876_Kobe Steak_03-11-1982_33 HatsuKaShi Street, Kobe City
+student_82736587_Alah Alahlahlah_01-02-1988_44 Alahlahlah Avenue, Ahh City
+student_22847583_Pew Paw_02-02-1999_55 Chakalaka Avenue, Boom City
+student_12345827_Damn These_01-09-2010_66 Names Road, Aw City

@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EnrolmentSystemModel;
 using System.Collections.Generic;
+using System.IO;
 
 namespace EnrolmentSystemUnitTest
 {
@@ -32,21 +33,19 @@ namespace EnrolmentSystemUnitTest
         [TestMethod]
         public void TestPaperAddStudent()
         {
-            var student = new Student(12345678,"Big Mac",new BirthDay(1,7,1955),"33 Blah ave., Albany, North Shore");
             var paper = new Paper("158.212", "Application Software Development", "Dr Teo Susnjak");
-            paper.AddStudent(student);
-            var student2 = new Student(11111111, "Small Mac", new BirthDay(1, 1, 2011), "22 aaa rd., Albany, North Shore");
+            paper.AddStudent("12345678");
             
             bool addSuccess;
-            if (addSuccess = paper.AddStudent(student))
-                Console.WriteLine(student.Id + " Added");
+            if (addSuccess = paper.AddStudent("12345678"))
+                Console.WriteLine("12345678 Added");
             else
-                Console.WriteLine(student.Id + " Existed");
+                Console.WriteLine("12345678 Existed");
 
-            if (addSuccess = paper.AddStudent(student2))
-                Console.WriteLine(student2.Id + " Added");
+            if (addSuccess = paper.AddStudent("12345677"))
+                Console.WriteLine("12345677 Added");
             else
-                Console.WriteLine(student2.Id + " Existed");
+                Console.WriteLine("12345677 Existed");
 
             Console.Write("Student List:\n" + paper.StudentList());
         }
@@ -54,19 +53,16 @@ namespace EnrolmentSystemUnitTest
         [TestMethod]
         public void TestPaperRemoveStudent()
         {
-            var student = new Student(12345678, "Big Mac", new BirthDay(1, 7, 1955), "33 Blah ave., Albany, North Shore");
             var paper = new Paper("158.212", "Application Software Development", "Dr Teo Susnjak");
-            paper.AddStudent(student);
-            var student2 = new Student(11111111, "Small Mac", new BirthDay(1, 1, 2011), "22 aaa rd., Albany, North Shore");
-            paper.AddStudent(student2);
+            paper.AddStudent("12345678");
 
             bool removeSuccess;
-            if (removeSuccess = paper.RemoveStudent(11111111))
+            if (removeSuccess = paper.RemoveStudent("11111111"))
                 Console.WriteLine("11111111 successfully removed");
             else
                 Console.WriteLine("11111111 is not existed");
 
-            if (removeSuccess = paper.RemoveStudent(11111111))
+            if (removeSuccess = paper.RemoveStudent("12345678"))
                 Console.WriteLine("11111111 successfully removed");
             else
                 Console.WriteLine("11111111 is not existed");
@@ -115,7 +111,7 @@ namespace EnrolmentSystemUnitTest
         public void TestUniversityAddStudent()
         {
             var massey = new University();
-            var student = new Student(12345678, "Big Mac", new BirthDay(1, 7, 1955), "33 Blah ave., Albany, North Shore");
+            var student = new Student("12345678", "Big Mac", "01-07-1987", "33 Blah ave., Albany, North Shore");
 
             bool addSuccess;
             if (addSuccess = massey.AddStudent(student))
@@ -132,21 +128,37 @@ namespace EnrolmentSystemUnitTest
         [TestMethod]
         public void TestUniversityRemoveStudent(){
             var massey = new University();
-            var student = new Student(12345678, "Big Mac", new BirthDay(1, 7, 1955), "33 Blah ave., Albany, North Shore");
+            var student = new Student("12345678", "Big Mac", "12-12-1222", "33 Blah ave., Albany, North Shore");
             bool addSuccess = massey.AddStudent(student);
 
             bool removeSuccess;
-            if (removeSuccess = massey.RemoveStudent(12345678))
+            if (removeSuccess = massey.RemoveStudent("12345678"))
                 Console.WriteLine("12345678 removed");
             else
                 Console.WriteLine("12345678 not existed");
 
-            if (removeSuccess = massey.RemoveStudent(12345678))
+            if (removeSuccess = massey.RemoveStudent("12345678"))
                 Console.WriteLine("12345678 removed");
             else
                 Console.WriteLine("12345678 not existed");
         }
 
+        [TestMethod]
+        public void TestSplitByBar()
+        {
+            StreamReader reader = new StreamReader("C:\\Github\\EnrolmentSystem\\EnrolmentSystem\\Data\\MainDataBase.txt");
+            while (reader.Peek() > 0)
+            {
+                string[] temp = reader.ReadLine().Split('_');
+                foreach (string tp in temp)
+                {
+                    Console.Write(tp+"-");
+                }
+                Console.Write("\n");
+            }
+        }
+
+        
 
 
     }

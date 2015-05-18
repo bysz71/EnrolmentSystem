@@ -8,22 +8,20 @@ namespace EnrolmentSystemModel
 {
     public class Student
     {
-        private int _id;
+        private string _id;
         private string _name;
-        private BirthDay _birthDay;
+        private string _birthDay;
         private string _address;
-        private Dictionary<string,Paper> _paperDictionary;
 
-        public Student(int id , string name , BirthDay BirthDay , string address){
+        public Student(string id , string name , string BirthDay , string address){
             _id = id;
             _name = name;
             _birthDay = BirthDay;
             _address = address;
-            _paperDictionary = new Dictionary<string, Paper>();
         }
 
 
-        public int Id
+        public string Id
         {
             get
             {
@@ -44,6 +42,30 @@ namespace EnrolmentSystemModel
             set
             {
                 _name = value;
+            }
+        }
+
+        public string BirthDay
+        {
+            get
+            {
+                return _birthDay;
+            }
+            set
+            {
+                _birthDay = value;
+            }
+        }
+
+        public string Address
+        {
+            get
+            {
+                return _address;
+            }
+            set
+            {
+                _address = value;
             }
         }
     }
