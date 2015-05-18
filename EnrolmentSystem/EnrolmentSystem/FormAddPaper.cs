@@ -11,15 +11,15 @@ using EnrolmentSystemModel;
 
 namespace EnrolmentSystemUI
 {
-    public partial class FormAddStudent : Form
+    public partial class FormAddPaper : Form
     {
         private University _university;
-        private Student _student;
+        private Paper _paper;
 
-        public FormAddStudent(University university)
+        public FormAddPaper(University university)
         {
             InitializeComponent();
-            _university = university;            
+            _university = university;
         }
 
         private void buttonCancel_Click(object sender, EventArgs e)
@@ -29,24 +29,26 @@ namespace EnrolmentSystemUI
 
         private void buttonConfirm_Click(object sender, EventArgs e)
         {
-            if (textBoxName.Text == "" || textBoxId.Text == "" || textBoxBirthday.Text == "" || richTextBoxAddress.Text == "")
+            if (textBoxName.Text == "" || textBoxCode.Text == "" || textBoxCoordinator.Text == "")
             {
-                MessageBox.Show("Error: Please fill all the blanks.");
+                MessageBox.Show("Error: Please fill all the blanks");
                 return;
             }
 
-            _student = new Student(textBoxId.Text, textBoxName.Text, textBoxBirthday.Text, richTextBoxAddress.Text);
-            if (_university.AddStudent(_student))
+            _paper = new Paper(textBoxCode.Text, textBoxName.Text, textBoxCoordinator.Text);
+            if (_university.AddPaper(_paper))
             {
                 MessageBox.Show("Added");
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Existed, fail");
+                MessageBox.Show("Existed, failed");
             }
         }
 
 
+
+        
     }
 }

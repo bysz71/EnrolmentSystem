@@ -7,8 +7,6 @@ paper_333.333_Gggg Hhhh Iiii_Dr Gg Hh
 member_11111111_33333333_66666666
 paper_444.444_Jjjj Kkkk Llll_Dr Jj Kk
 member_22222222_33333333_44444444_55555555_66666666
-paper_123.123_Pppp Pppp Pppp_Dr Pp Pp
-member_
 student_11111111_Abc Def_01-01-1111_addr1
 student_22222222_Ghi Jkl_01-01-1111_addr2
 student_33333333_Mno Pqr_01-01-1111_addr3

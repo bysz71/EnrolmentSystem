@@ -44,6 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAddPaper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddPaper.Designer.cs">
+      <DependentUpon>FormAddPaper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddStudent.Designer.cs">
+      <DependentUpon>FormAddStudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +76,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAddPaper.resx">
+      <DependentUpon>FormAddPaper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddStudent.resx">
+      <DependentUpon>FormAddStudent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,17 +115,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EnrolmentSystemControll\EnrolmentSystemControll.csproj">
-      <Project>{1359f1db-87a8-43d3-a756-59c1bbbe67ae}</Project>
-      <Name>EnrolmentSystemControll</Name>
-    </ProjectReference>
     <ProjectReference Include="..\EnrolmentSystemModel\EnrolmentSystemModel.csproj">
       <Project>{3fb128a1-940d-4cf8-badb-efa2d0514d82}</Project>
       <Name>EnrolmentSystemModel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MakeupFileControl\MakeupFileControl.csproj">
-      <Project>{8b5d6b94-59d0-4994-bbf7-149353c18c81}</Project>
-      <Name>MakeupFileControl</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
