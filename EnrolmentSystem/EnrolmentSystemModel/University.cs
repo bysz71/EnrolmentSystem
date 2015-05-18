@@ -31,6 +31,22 @@ namespace EnrolmentSystemModel
             }
         }
 
+        public Dictionary<string, Paper> PaperDictionary
+        {
+            get
+            {
+                return _paperDictionary;
+            }
+        }
+
+        public Dictionary<string, Student> StudentDictionary
+        {
+            get
+            {
+                return _studentDictionary;
+            }
+        }
+
         /// <summary>
         /// Add a paper to this university dataset if it's not existed
         /// </summary>

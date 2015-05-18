@@ -13,3 +13,5 @@ C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\bin\Debug\MakeupFileCo
 C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\bin\Debug\EnrolmentSystemControll.pdb
 C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\bin\Debug\EnrolmentSystemModel.pdb
 C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\bin\Debug\MakeupFileControl.pdb
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\obj\Debug\EnrolmentSystemUI.FormStudent.resources
+C:\Github\EnrolmentSystem\EnrolmentSystem\EnrolmentSystem\obj\Debug\EnrolmentSystemUI.FormPaper.resources

@@ -2,7 +2,7 @@
 paper_159.334_Internet Programming_Dr Squid Ring
 member_28471928_92817237_12345827_22847583
 paper_159.201_Data Structure And Algrithms_Dr King Prawn 
-member_92817237_82736587_12345827_22847583_2847192
+member_92817237_82736587_12345827_22847583_28471928
 paper_159.234_Object Oriented Programming_Dr Salmon Slice
 member_92817237_12562876_82736587
 paper_158.212_Application Software Development_Dr Baked Scallops
